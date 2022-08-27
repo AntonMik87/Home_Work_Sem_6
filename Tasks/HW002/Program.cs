@@ -1,6 +1,6 @@
-﻿// Задать двумерный массив следующим правилом: Aₘₙ = m+n
+﻿// Задать двумерный массив следующим правилом: Aₘₙ = m+n A[i,j] = i+j
 
-int[,] array = new int[4, 4];
+int[,] array = new int[5, 5];
 for (int i = 0; i < array.GetLength(0); i++)
 {
     for (int j = 0; j < array.GetLength(1); j++)
