@@ -1,6 +1,6 @@
 ﻿// Показать двумерный массив размером m×n заполненный вещественными числами
 
-double[,] matrix = new double[5, 5];
+double[,] matrix = new double[10, 10];
 for (int i = 0; i < matrix.GetLength(0); i++)
 {
     for (int j = 0; j < matrix.GetLength(1); j++)

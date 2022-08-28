@@ -20,9 +20,7 @@ for (int x = 0; x < arr.GetLength(0); x++)
 
         if (x % 2 == 0 && y % 2 == 0)
         {
-
-            arr[x, y] = arr[x, y] * arr[x, y] * arr[x, y];
-            //Console.Write($" {arr[x, y]} ");
+            arr[x, y] = arr[x, y] * arr[x, y];
         }
         Console.Write($" {arr[x, y]} ");
     }
